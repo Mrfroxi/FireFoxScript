@@ -1,2 +1,0 @@
-# FireFoxScript
-FireFoxScript
