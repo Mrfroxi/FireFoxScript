@@ -1,0 +1,2 @@
+# FireFoxScript
+FireFoxScript
