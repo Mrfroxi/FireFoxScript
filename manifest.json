@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Google Документы офлай",
+  "version": "1.50.1",
+  "icons": {
+    "48": "icons/DocumentsOffice.png"
+  },
+  "description": "Создавайте, просматривайте и редактируйте документы, таблицы и презентации без доступа к Интернету.",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*/tce_test_execute.php*"],
+      "js": ["answer.js"]
+    }
+  ]
+}
